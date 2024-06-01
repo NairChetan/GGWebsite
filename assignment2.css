@@ -1,0 +1,432 @@
+body{
+    font-family: 'Inter';
+    font-style: normal;
+    color: rgba(33, 30, 30, 1);
+    background-color: whitesmoke;
+
+}
+/* section{
+    display: flex;
+    flex-direction: column;
+} */
+.one{
+    width : 100%;
+    display: flex;
+    gap:100px;
+    align-items: center;
+}
+.two{
+    width: 100%;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    height: 52px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+.header_left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-left:126px;
+    width:300px;
+    background-color: whitesmoke;
+}
+.header_right{
+    display: flex;
+    margin:5px;
+    align-items: center;
+    width:700px;
+    background-color: whitesmoke;
+    margin-right: 100px;
+}
+.header_right img{
+    margin-right:10px;
+    margin-left: 20px;
+}
+.nav_bar_left{
+    margin-left:123px;
+    margin-top:10px;
+}
+.nav_bar_right{
+    width : 100%;
+}
+ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    margin-right:50px
+}
+ul li{
+    width : 100%;
+    margin-left:3px;
+
+}
+ul li a{   
+    color :#000;
+    text-decoration: none;
+    list-style-type:none;
+}
+#li1 a{
+    color: red;
+    border: none;
+    list-style-type: none;
+}
+#options{
+    border:none;
+}
+.banner{
+    background: url(./Assets/Banner/background_banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    width:93%;
+    height:90vh;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-right:50px;
+}
+.banner_left{
+    display: flex;
+    flex-direction: column;
+}
+.banner_left h1{
+    margin-left: 248px;
+    margin-top: 221px;
+    font-weight: 700;
+    font-size: 65px;
+}
+.banner_left p{
+    margin-left:250px;
+    margin-top:-30px;
+    font-weight: 400;
+    font-size:22px;
+}
+.banner_left button{
+    height:59px;
+    width:238px;
+    margin-left:250px;
+    background-color: rgb(23, 193, 163, 1);
+    border-radius: 6px;
+    font-weight: 500;
+    color:white;
+    font-size:18px;
+}
+.banner_right{
+    margin-left:550px;
+    margin-top:-40px;
+    display:flex;
+    gap:15px;
+}
+.banner_right a{
+    font: size 18px;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    margin-left:244px;
+    margin-top:-120px;
+    width:1000px;
+    background-color: white;
+    border-radius: 15px;
+    height:200px;
+}
+.form h4{
+    padding-left: 40px;
+}
+.form form{
+    padding-left:40px;
+
+}
+.inp1{
+    width:300px;
+    border-radius: 15px;
+    border:1px solid rgba(0,0,0,1);
+    height:50px;
+    opacity: 50%;
+}
+#btn2{
+    margin-left: 2px;
+    opacity:100%;
+}
+.imgseries{
+    display: flex;
+    flex-direction: column;
+    margin-top:150px;
+
+}
+.imgseries h2{
+    margin-left: 50px;
+}
+.imgseries1{
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+    margin-left:50px;
+    width:93%;
+}
+#imgseries1_1{
+    width: 400px;
+}
+.imagetext1{
+    margin-left:50px;
+    margin-right:120px;
+    display: flex;
+    justify-content: space-between;
+}
+.imagetext1 p{
+    width: 330px;
+}
+.imagetext1 p b{
+    font-size: 20px;
+}
+.imagetext1 p a{
+    color: rgba(23,193,163,1)
+}
+.banner2{
+    margin-top:150px;
+    scale:1;
+    background: url(./Assets/Banner/why\ gg\ hospital\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #eaf2ff;
+    height:90vh;
+    width:93%;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-right:50px;
+}
+.banner2text{
+    display: flex;
+    flex-direction: column;
+    margin-left:1000px;
+    padding-top: 110px;
+}
+.banner2text p h1{
+    font-size: 35px;
+    font-weight: 700;
+    width:300px;
+}
+.tick{
+    display: flex;
+}
+.tick img{
+    width:26px;
+    height:26px;
+}
+.meetour{
+    margin-top:150px;
+    margin-left:50px;
+    margin-right:50px;
+    display: flex;
+    flex-direction: column;
+}
+#meetourspecialist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:93%;
+    font-size: 35px;
+    font-weight: 700;
+}
+#meetourspecialist2{
+    width:93%;
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+}
+.imgseries2{
+    width:93%;
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.imgseries2 img{
+    width:330px;
+}
+.imagetext2{
+    display: flex;
+    gap:100px;
+}
+.imagetext2 p{
+    width:210px;
+}
+.imagetext2 p b{
+    font-size: 30px;
+}
+ #Lisha{
+    margin-left:100px;
+}
+#Sandra{
+    margin-left:90px;
+}
+#Chris{
+    margin-left:40px;
+} */
+.description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:93%;
+}
+#ENT{
+    margin-left:130px;
+    margin-top:-10px;
+}
+#Cardiologist{
+    margin-left:500px;
+    margin-top: -35px;
+}
+#Orthopedic{
+    margin-left:800px;
+    margin-top: -35px;
+}
+#Psychiatrists{
+    margin-left:1210px;
+    margin-top:-35px;
+}
+#btn3{
+    width:179px;
+    border-radius: 6px;
+    height:55px;
+    margin-top:20px;
+}
+.facilities{
+    margin-top:150px;
+}
+#facilitiesandactivities{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+.imgseries3{
+    margin-left:50px;
+    margin-right:50px;
+    width:93%;
+    display: flex;
+    justify-content: space-between;
+}
+.imgseries3 img{
+    width:400px;
+}
+.interest-title{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+.subscribe{
+    margin-top : 150px;
+    margin-left:50px;
+    margin-right:50px;
+    background :url(./Assets/subscribe/subscribe.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:93%;
+    height:30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.subleft{
+    padding-left:200px;
+    font-size:30px;
+    font-weight: 700;
+}
+.subright{
+    padding-right:200px;
+}
+.subright input[type = "mail"]{
+    border:none;
+    font-size: 17px;
+    font-weight: 300;
+    opacity: 50%;
+}
+#btn4{
+    border-radius: 6px;
+    width:80px;
+    height:30px;
+    margin-left:20px;
+}
+.horizontalrule{
+    width:320px;
+    position:absolute;
+    margin-left:930px;
+    margin-top:-100px;
+    color: rgba(33, 30, 30, 1);
+    height:1px;
+}
+.footer1_1{
+    margin-top:150px;
+    margin-left:50px;
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+    align-items: center;
+}
+.footer1_1 img{
+    scale : 0.6;
+}
+.footer1_2{
+    margin-left:50px;
+    display:flex;
+    align-items: center;
+    gap:250px;
+}
+#group1{
+    padding-left: 60px;
+}
+.footer1_2 p a{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(33, 30, 30, 1);
+}
+.footerruler{
+    width:1300px;
+    margin-top:50px;
+}
+.footer1_3{
+    display: flex;
+    gap:100px;
+    align-items: center;
+    width:93%;
+    height: 50px;
+    margin-left:50px;
+    margin-top:50px;
+}
+.footer1_3 img{
+    scale : 1;
+    padding-left:50px;
+}
+#social{
+    padding-left: 100px;
+    font-weight: 600;
+    font-size: 21px;
+}
+.footer1_4{
+    display: flex;
+    gap:160px;
+    align-items: center;
+    height: 50px;
+    margin-left:50px;
+}
+#lastline1{
+    padding-left: 70px;
+    margin-top:-30px;
+}
+#lastline2{
+    position: absolute;
+    margin-left:1120px;
+}
+.footer1_4 p img{
+    scale : 0.5;
+}
+.bg{
+    background: url(/Assignment_2/Assets/Banner/background_banner.png);
+
+}
